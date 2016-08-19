@@ -5,7 +5,7 @@ Vim filetype plugin for [rustpeg](https://github.com/kevinmehall/rust-peg).
 
 - [x] Filetype detection
 - [x] Syntax highlight
-- [ ] Comment and other filetype specific config
+- [x] Comment and other filetype specific config
 
 Distributed under the MIT license.
 
