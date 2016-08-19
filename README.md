@@ -7,6 +7,8 @@ Vim filetype plugin for [rustpeg](https://github.com/kevinmehall/rust-peg).
 - [x] Syntax highlight
 - [x] Comment and other filetype specific config
 
+![screenshot](https://raw.githubusercontent.com/rhysd/ss/master/vim-rustpeg/main.png)
+
 Distributed under the MIT license.
 
 ```
