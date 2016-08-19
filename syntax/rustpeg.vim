@@ -11,9 +11,9 @@ runtime! syntax/rust.vim
 syn keyword rustpegSpecialName __
 syn match rustpegParens "\%(\[\|]\|(\|)\|{\|}\)" display
 syn match rustpegCapture "\<\h\w*:\ze\S\+" display
-syn match rustpegRuleDefine "\_^\h\w*\ze\s\+->" display
-syn match rustpegRuleDefine "\_^\h\w*\ze\_s*=" display
-syn match rustpegRuleType "\%(\_^\h\w*\s\+->\s\+\)\@<=\h\w*\>" display
+syn match rustpegRuleDefine "\_^\s*\h\w*\ze\s\+->" display
+syn match rustpegRuleDefine "\_^\s*\h\w*\ze\_s*=" display
+syn match rustpegRuleType "\%(\_^\s*\h\w*\s\+->\s\+\)\@<=\h\w*\>" display
 
 hi def link rustpegSpecialName Special
 hi def link rustpegCapture Identifier
